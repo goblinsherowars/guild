@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Гоблины · Команды</title>
+  <link rel="stylesheet" href="css/styles.css">
+<script type="importmap">{"imports":{"./js/i18n.js":"./js/i18n.js?v=championship-1"}}</script></head>
+<body>
+  <header class="site-header" data-shell-header></header>
+  <main class="container heroes-page teams-page">
+    <section class="heroes-intro" aria-labelledby="teams-title">
+      <div class="eyebrow" data-i18n="gameName">Хроники Хаоса: Альянс Героев</div>
+      <h1 id="teams-title" data-i18n="teams"></h1>
+      <p data-i18n="teamsText"></p>
+      <p class="teams-notice" data-i18n="teamsExamplesNote"></p>
+    </section>
+    <section class="teams-section" aria-labelledby="championship-title">
+      <h2 id="championship-title" data-i18n="teamsChampionship"></h2>
+      <div class="teams-columns">
+        <section aria-labelledby="defense-title">
+          <h3 id="defense-title" data-i18n="teamsDefense"></h3>
+          <ol class="team-list" data-team-list="defense"></ol>
+        </section>
+        <section aria-labelledby="attack-title">
+          <h3 id="attack-title" data-i18n="teamsAttack"></h3>
+          <ol class="team-list" data-team-list="attack"></ol>
+        </section>
+      </div>
+    </section>
+    <section class="teams-section" aria-labelledby="guild-teams-title">
+      <h2 id="guild-teams-title" data-i18n="teamsGuild"></h2>
+      <ul class="team-list teams-columns" data-team-list="guild"></ul>
+    </section>
+  </main>
+  <footer class="site-footer" data-shell-footer></footer>
+  <script type="module" src="js/app.js?v=championship-1"></script>
+  <script type="module" src="js/teams-page.js?v=championship-2"></script>
+</body>
+</html>
