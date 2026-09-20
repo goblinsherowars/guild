@@ -78,3 +78,6 @@
 .team-card h4{font-size:16px;margin:0 0 12px;color:var(--gold2)}
 .team-names{font-size:14px;color:var(--muted);line-height:1.7;margin:10px 0 0;overflow-wrap:anywhere}
 @media(max-width:700px){.teams-columns{grid-template-columns:1fr}.team-card{padding:16px}}
+
+.guide-hero{display:inline-flex;align-items:center;gap:6px;vertical-align:middle;white-space:nowrap}
+.guide-hero img{display:block;width:40px;height:40px;object-fit:contain;flex-shrink:0}

@@ -9,7 +9,7 @@ test('all pages route cached module imports to the current translation dictionar
     const map = html.match(/<script type="importmap">([\s\S]*?)<\/script>/);
     assert.ok(map, `${page}: translation import map is required`);
     const target = JSON.parse(map[1]).imports['./js/i18n.js'];
-    assert.equal(target, './js/i18n.js?v=championship-1');
+    assert.equal(target, './js/i18n.js?v=hydra-1');
     assert.ok(html.indexOf(map[0]) < html.indexOf('<script type="module"'), page);
   }
 });
