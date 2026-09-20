@@ -17,7 +17,7 @@ async function loadGuide() {
 
   try {
     if (!cache.has(language)) {
-      const response = await fetch(`${source}?v=infinite-dungeon-1`);
+      const response = await fetch(`${source}?v=dungeon-resources-1`);
       if (!response.ok) throw new Error(`Guide request failed: ${response.status}`);
       cache.set(language, await response.text());
     }
