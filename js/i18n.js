@@ -1,5 +1,10 @@
 export const translations={
  ru:{
+ guildVsArmyTitle:"День «Тренировка Армии»",
+ guildVsArmyIntro:"Повышение уровня войск происходит быстрее, чем тренировка новых, что даёт значительно больше очков Схватки.",
+ guildVsArmyPrepare:"Всю неделю тренируем войска на один уровень ниже максимального доступного.",
+ guildVsArmyUpgrade:"В день «Тренировка Армии» вместо тренировки новых войск повышаем уровень уже подготовленных.",
+ guildVsArmySpeedups:"Используем ускорения тренировки для повышения уровня войск.",
  guildVsTipTitle:"Очки за обмен готовых предметов",
  guildVsTipIntro:"Лайфхак для дня, когда очки Схватки начисляются за надевание предметов разного качества.",
  guildVsTipExchange:"Предметы можно обменивать через «Награды гильдии» и таким образом получать большое количество очков Схватки.",
@@ -24,6 +29,11 @@ brand:'Гоблины',home:'Главная',players:'Игроки',dungeon:'П�
  rosterTitle:'Игроки гильдии',search:'Поиск игрока…',sort:'Сортировка',sortActivity:'Активность',sortTotal:'Общая сила',sortHero:'Сила героев',sortTitan:'Сила титанов',sortName:'Ник',list:'Список',cards:'Карточки',heroTeam:'Команда героев',titanTeam:'Команда титанов',noData:'Состав пока не добавлен',totalPower:'Общая сила',rank:'Место',
  coming:'Раздел готовится',dungeonText:'Лечение титанов, выбор комнат, приоритеты прокачки и советы для долгого прохождения.',heroesText:'Каталог героев мобильной версии: портреты, классы и короткие описания. Найдите героя и познакомьтесь с его особенностями.',titansText:'Здесь будут советы по прокачке титанов, обликов, артефактов и составов.',guildVsText:'Как получать очки Схватки за обмен предметов и правильно использовать фрагменты.',aboutText:'Внутренний портал гильдии «Гоблины». Данные игроков перенесены из предоставленных скриншотов и будут постепенно обновляться.',backPlayers:'К игрокам',footer:'Гоблины · Вместе к победам',quick:'Разделы портала',topPlayers:'Известные боевые составы',viewAll:'Все игроки'},
  en:{
+ guildVsArmyTitle:"Army Training Day",
+ guildVsArmyIntro:"Upgrading troops is faster than training new ones, allowing you to earn significantly more Guild VS points.",
+ guildVsArmyPrepare:"Throughout the week, train troops one level below the highest level available.",
+ guildVsArmyUpgrade:"On Army Training Day, upgrade the troops you have prepared instead of training new ones.",
+ guildVsArmySpeedups:"Use training speedups to upgrade troops.",
  guildVsTipTitle:"Points for exchanging complete items",
  guildVsTipIntro:"A tip for the day when Guild VS awards points for equipping items of different qualities.",
  guildVsTipExchange:"You can exchange items through Guild Rewards to earn a large number of Guild VS points.",
