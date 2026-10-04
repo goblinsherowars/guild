@@ -44,6 +44,14 @@ test('catalog renders, searches both languages, filters classes and preserves st
     const {selectHeroes} = await import('../js/heroes-page.js');
     const catalog = nodes['[data-hero-catalog]'];
     assert.equal(catalog.children.length, heroes.length);
+    const ranked = selectHeroes();
+    assert.deepEqual(ranked.slice(0, 5).map(hero => hero.id), ['aidan', 'iris', 'byrna', 'folio', 'electra-von-grave']);
+    assert.equal(ranked.find(hero => hero.id === 'fox').rank, 81);
+    assert.equal(ranked.at(-1).id, 'eva');
+    assert.deepEqual(selectHeroes('', '', 'en').map(hero => hero.id), ranked.map(hero => hero.id));
+    const tankRanks = selectHeroes('', 'tank').map(hero => hero.rank);
+    assert.deepEqual(tankRanks, [...tankRanks].sort((a, b) => a - b));
+    assert.equal(catalog.children[0].children[1].children[2].textContent, 'Место в рейтинге: 1');
     for (const [query, expected] of [['  АрТемИс ', 'artemis'], ['Galachad', 'galahad'],
       ['ЛЮТЕР', 'luther'], ['K’arkh', 'k-arkh'], ['Карх', 'k-arkh'],
       ['Фолио', 'folio'], ['Темная Звезда', 'dark-star'], ['Astrid & Lucas', 'astrid-lucas']]) {
@@ -59,6 +67,7 @@ test('catalog renders, searches both languages, filters classes and preserves st
     assert.equal(catalog.children.length, 1);
     assert.equal(catalog.children[0].children[0].alt, 'Artemis');
     assert.equal(catalog.children[0].children[1].children[1].textContent, 'Marksman');
+    assert.equal(catalog.children[0].children[1].children[2].textContent, 'Rank: 53');
     assert.equal(catalog.children[0].children[2].textContent, heroes.find(hero => hero.id === 'artemis').description.en);
     assert.equal(nodes['[data-hero-search]'].value, 'Артемис');
     assert.equal(document.title, 'Goblins · Heroes');

@@ -11,7 +11,8 @@ export function selectHeroes(query = '', selectedRole = '', language = 'ru') {
   return heroes.filter(hero => (!selectedRole || hero.role === selectedRole) &&
     [hero.name.ru, hero.name.en, hero.image.split('/').pop().replace('.png', ''),
       ...(hero.id === 'folio' ? ['Фолио'] : [])].some(name => normalize(name).includes(needle)))
-    .sort((a, b) => a.name[language].localeCompare(b.name[language], language));
+    .sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity) ||
+      a.name[language].localeCompare(b.name[language], language));
 }
 
 function render() {
@@ -34,7 +35,10 @@ function render() {
     const badge = document.createElement('span');
     badge.className = 'hero-role';
     badge.textContent = t(`heroRole_${hero.role}`);
-    heading.append(name, badge);
+    const rank = document.createElement('span');
+    rank.className = 'hero-rank';
+    rank.textContent = hero.rank ? `${t('heroRank')}: ${hero.rank}` : t('heroUnranked');
+    heading.append(name, badge, rank);
     const description = document.createElement('p');
     description.textContent = hero.description[language];
     const source = document.createElement('a');

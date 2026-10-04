@@ -3,6 +3,7 @@
 export const heroes = [
   {
     "id": "aidan",
+    "rank": 1,
     "image": "assets/heroes/Aidan.png",
     "role": "healer",
     "name": {
@@ -17,6 +18,7 @@ export const heroes = [
   },
   {
     "id": "alvanor",
+    "rank": 42,
     "image": "assets/heroes/Alvanor.png",
     "role": "support",
     "name": {
@@ -31,6 +33,7 @@ export const heroes = [
   },
   {
     "id": "amira",
+    "rank": 40,
     "image": "assets/heroes/Amira.png",
     "role": "support",
     "name": {
@@ -45,6 +48,7 @@ export const heroes = [
   },
   {
     "id": "andvari",
+    "rank": 56,
     "image": "assets/heroes/Andvari.png",
     "role": "control",
     "name": {
@@ -59,6 +63,7 @@ export const heroes = [
   },
   {
     "id": "arachne",
+    "rank": 47,
     "image": "assets/heroes/Arachne.png",
     "role": "control",
     "name": {
@@ -73,6 +78,7 @@ export const heroes = [
   },
   {
     "id": "artemis",
+    "rank": 53,
     "image": "assets/heroes/Atremis.png",
     "role": "marksman",
     "name": {
@@ -87,6 +93,7 @@ export const heroes = [
   },
   {
     "id": "astaroth",
+    "rank": 22,
     "image": "assets/heroes/Astaroth.png",
     "role": "tank",
     "name": {
@@ -101,6 +108,7 @@ export const heroes = [
   },
   {
     "id": "astrid-lucas",
+    "rank": 57,
     "image": "assets/heroes/Astrid.png",
     "role": "marksman",
     "name": {
@@ -115,6 +123,7 @@ export const heroes = [
   },
   {
     "id": "aurora",
+    "rank": 60,
     "image": "assets/heroes/Aurora.png",
     "role": "tank",
     "name": {
@@ -129,6 +138,7 @@ export const heroes = [
   },
   {
     "id": "byrna",
+    "rank": 3,
     "image": "assets/heroes/Byrna.png",
     "role": "healer",
     "name": {
@@ -143,6 +153,7 @@ export const heroes = [
   },
   {
     "id": "cascade",
+    "rank": 37,
     "image": "assets/heroes/Cascade.png",
     "role": "marksman",
     "name": {
@@ -157,6 +168,7 @@ export const heroes = [
   },
   {
     "id": "celeste",
+    "rank": 49,
     "image": "assets/heroes/Celeste.png",
     "role": "support",
     "name": {
@@ -171,6 +183,7 @@ export const heroes = [
   },
   {
     "id": "chabba",
+    "rank": 77,
     "image": "assets/heroes/Chabba.png",
     "role": "tank",
     "name": {
@@ -185,6 +198,7 @@ export const heroes = [
   },
   {
     "id": "cleaver",
+    "rank": 38,
     "image": "assets/heroes/Cleaver.png",
     "role": "tank",
     "name": {
@@ -199,6 +213,7 @@ export const heroes = [
   },
   {
     "id": "cornelius",
+    "rank": 41,
     "image": "assets/heroes/Cornelius.png",
     "role": "mage",
     "name": {
@@ -213,6 +228,7 @@ export const heroes = [
   },
   {
     "id": "corvus",
+    "rank": 30,
     "image": "assets/heroes/Corvus.png",
     "role": "tank",
     "name": {
@@ -227,6 +243,7 @@ export const heroes = [
   },
   {
     "id": "dante",
+    "rank": 20,
     "image": "assets/heroes/Dante.png",
     "role": "marksman",
     "name": {
@@ -241,6 +258,7 @@ export const heroes = [
   },
   {
     "id": "daredevil",
+    "rank": 75,
     "image": "assets/heroes/Daredevil.png",
     "role": "marksman",
     "name": {
@@ -255,6 +273,7 @@ export const heroes = [
   },
   {
     "id": "dark-star",
+    "rank": 74,
     "image": "assets/heroes/DarkStar.png",
     "role": "marksman",
     "name": {
@@ -269,6 +288,7 @@ export const heroes = [
   },
   {
     "id": "dorian",
+    "rank": 19,
     "image": "assets/heroes/Dorian.png",
     "role": "healer",
     "name": {
@@ -283,6 +303,7 @@ export const heroes = [
   },
   {
     "id": "drayne",
+    "rank": 21,
     "image": "assets/heroes/Drayne.png",
     "role": "warrior",
     "name": {
@@ -297,6 +318,7 @@ export const heroes = [
   },
   {
     "id": "electra-von-grave",
+    "rank": 5,
     "image": "assets/heroes/Electra.png",
     "role": "tank",
     "name": {
@@ -311,6 +333,7 @@ export const heroes = [
   },
   {
     "id": "elmir",
+    "rank": 78,
     "image": "assets/heroes/Elmir.png",
     "role": "warrior",
     "name": {
@@ -325,6 +348,7 @@ export const heroes = [
   },
   {
     "id": "faceless",
+    "rank": 52,
     "image": "assets/heroes/Faceless.png",
     "role": "control",
     "name": {
@@ -339,6 +363,7 @@ export const heroes = [
   },
   {
     "id": "fafnir",
+    "rank": 33,
     "image": "assets/heroes/Fafnir.png",
     "role": "support",
     "name": {
@@ -353,6 +378,7 @@ export const heroes = [
   },
   {
     "id": "fox",
+    "rank": 81,
     "image": "assets/heroes/Fox.png",
     "role": "marksman",
     "name": {
@@ -367,6 +393,7 @@ export const heroes = [
   },
   {
     "id": "folio",
+    "rank": 4,
     "image": "assets/heroes/Folio.png",
     "role": "mage",
     "name": {
@@ -381,6 +408,7 @@ export const heroes = [
   },
   {
     "id": "galahad",
+    "rank": 58,
     "image": "assets/heroes/Galachad.png",
     "role": "warrior",
     "name": {
@@ -395,6 +423,7 @@ export const heroes = [
   },
   {
     "id": "ginger",
+    "rank": 64,
     "image": "assets/heroes/Ginger.png",
     "role": "marksman",
     "name": {
@@ -409,6 +438,7 @@ export const heroes = [
   },
   {
     "id": "guus",
+    "rank": 6,
     "image": "assets/heroes/Guus.png",
     "role": "healer",
     "name": {
@@ -423,6 +453,7 @@ export const heroes = [
   },
   {
     "id": "heidi",
+    "rank": 70,
     "image": "assets/heroes/Heidi.png",
     "role": "mage",
     "name": {
@@ -437,6 +468,7 @@ export const heroes = [
   },
   {
     "id": "helios",
+    "rank": 62,
     "image": "assets/heroes/Helios.png",
     "role": "support",
     "name": {
@@ -451,6 +483,7 @@ export const heroes = [
   },
   {
     "id": "iris",
+    "rank": 2,
     "image": "assets/heroes/Iris.png",
     "role": "mage",
     "name": {
@@ -465,6 +498,7 @@ export const heroes = [
   },
   {
     "id": "isaac",
+    "rank": 34,
     "image": "assets/heroes/Isaac.png",
     "role": "marksman",
     "name": {
@@ -479,6 +513,7 @@ export const heroes = [
   },
   {
     "id": "ishmael",
+    "rank": 73,
     "image": "assets/heroes/Ishamael.png",
     "role": "warrior",
     "name": {
@@ -493,6 +528,7 @@ export const heroes = [
   },
   {
     "id": "jet",
+    "rank": 69,
     "image": "assets/heroes/Jet.png",
     "role": "support",
     "name": {
@@ -507,6 +543,7 @@ export const heroes = [
   },
   {
     "id": "jhu",
+    "rank": 55,
     "image": "assets/heroes/Jhu.png",
     "role": "marksman",
     "name": {
@@ -521,6 +558,7 @@ export const heroes = [
   },
   {
     "id": "jorgen",
+    "rank": 51,
     "image": "assets/heroes/Jorgen.png",
     "role": "control",
     "name": {
@@ -535,6 +573,7 @@ export const heroes = [
   },
   {
     "id": "judge",
+    "rank": 26,
     "image": "assets/heroes/Judge.png",
     "role": "control",
     "name": {
@@ -549,6 +588,7 @@ export const heroes = [
   },
   {
     "id": "julius",
+    "rank": 7,
     "image": "assets/heroes/Julius.png",
     "role": "tank",
     "name": {
@@ -563,6 +603,7 @@ export const heroes = [
   },
   {
     "id": "k-arkh",
+    "rank": 65,
     "image": "assets/heroes/Karch.png",
     "role": "warrior",
     "name": {
@@ -577,6 +618,7 @@ export const heroes = [
   },
   {
     "id": "kai",
+    "rank": 67,
     "image": "assets/heroes/Kai.png",
     "role": "mage",
     "name": {
@@ -591,6 +633,7 @@ export const heroes = [
   },
   {
     "id": "kayla",
+    "rank": 11,
     "image": "assets/heroes/Kayla.png",
     "role": "warrior",
     "name": {
@@ -605,6 +648,7 @@ export const heroes = [
   },
   {
     "id": "keira",
+    "rank": 63,
     "image": "assets/heroes/Keira.png",
     "role": "marksman",
     "name": {
@@ -619,6 +663,7 @@ export const heroes = [
   },
   {
     "id": "krista",
+    "rank": 61,
     "image": "assets/heroes/Krista.png",
     "role": "support",
     "name": {
@@ -633,6 +678,7 @@ export const heroes = [
   },
   {
     "id": "lars",
+    "rank": 59,
     "image": "assets/heroes/Lars.png",
     "role": "mage",
     "name": {
@@ -647,6 +693,7 @@ export const heroes = [
   },
   {
     "id": "leonel",
+    "rank": 32,
     "image": "assets/heroes/Lionel.png",
     "role": "warrior",
     "name": {
@@ -661,6 +708,7 @@ export const heroes = [
   },
   {
     "id": "lian",
+    "rank": 13,
     "image": "assets/heroes/Lian.png",
     "role": "control",
     "name": {
@@ -675,6 +723,7 @@ export const heroes = [
   },
   {
     "id": "lilith",
+    "rank": 66,
     "image": "assets/heroes/Lilith.png",
     "role": "mage",
     "name": {
@@ -689,6 +738,7 @@ export const heroes = [
   },
   {
     "id": "luther",
+    "rank": 43,
     "image": "assets/heroes/Luher.png",
     "role": "tank",
     "name": {
@@ -703,6 +753,7 @@ export const heroes = [
   },
   {
     "id": "markus",
+    "rank": 80,
     "image": "assets/heroes/Markus.png",
     "role": "healer",
     "name": {
@@ -717,6 +768,7 @@ export const heroes = [
   },
   {
     "id": "martha",
+    "rank": 48,
     "image": "assets/heroes/Marta.png",
     "role": "healer",
     "name": {
@@ -731,6 +783,7 @@ export const heroes = [
   },
   {
     "id": "maya",
+    "rank": 50,
     "image": "assets/heroes/Maya.png",
     "role": "healer",
     "name": {
@@ -745,6 +798,7 @@ export const heroes = [
   },
   {
     "id": "miu",
+    "rank": 18,
     "image": "assets/heroes/Miu.png",
     "role": "support",
     "name": {
@@ -759,6 +813,7 @@ export const heroes = [
   },
   {
     "id": "mojo",
+    "rank": 54,
     "image": "assets/heroes/Mojo.png",
     "role": "mage",
     "name": {
@@ -773,6 +828,7 @@ export const heroes = [
   },
   {
     "id": "morrigan",
+    "rank": 44,
     "image": "assets/heroes/Morrigan.png",
     "role": "healer",
     "name": {
@@ -787,6 +843,7 @@ export const heroes = [
   },
   {
     "id": "mushy-and-shroom",
+    "rank": 28,
     "image": "assets/heroes/Mushy.png",
     "role": "tank",
     "name": {
@@ -801,6 +858,7 @@ export const heroes = [
   },
   {
     "id": "nebula",
+    "rank": 31,
     "image": "assets/heroes/Nebula.png",
     "role": "support",
     "name": {
@@ -815,6 +873,7 @@ export const heroes = [
   },
   {
     "id": "octavia",
+    "rank": 16,
     "image": "assets/heroes/Octavia.png",
     "role": "support",
     "name": {
@@ -829,6 +888,7 @@ export const heroes = [
   },
   {
     "id": "orion",
+    "rank": 45,
     "image": "assets/heroes/Orion.png",
     "role": "mage",
     "name": {
@@ -843,6 +903,7 @@ export const heroes = [
   },
   {
     "id": "oya",
+    "rank": 24,
     "image": "assets/heroes/Oya.png",
     "role": "warrior",
     "name": {
@@ -857,6 +918,7 @@ export const heroes = [
   },
   {
     "id": "peech",
+    "rank": 39,
     "image": "assets/heroes/Peech.png",
     "role": "warrior",
     "name": {
@@ -871,6 +933,7 @@ export const heroes = [
   },
   {
     "id": "peppy",
+    "rank": 79,
     "image": "assets/heroes/Peppy.png",
     "role": "control",
     "name": {
@@ -885,6 +948,7 @@ export const heroes = [
   },
   {
     "id": "phobos",
+    "rank": 17,
     "image": "assets/heroes/Phobos.png",
     "role": "control",
     "name": {
@@ -899,6 +963,7 @@ export const heroes = [
   },
   {
     "id": "polaris",
+    "rank": 8,
     "image": "assets/heroes/Polaris.png",
     "role": "control",
     "name": {
@@ -913,6 +978,7 @@ export const heroes = [
   },
   {
     "id": "qing-mao",
+    "rank": 68,
     "image": "assets/heroes/QingMao.png",
     "role": "warrior",
     "name": {
@@ -927,6 +993,7 @@ export const heroes = [
   },
   {
     "id": "rufus",
+    "rank": 35,
     "image": "assets/heroes/Rufus.png",
     "role": "tank",
     "name": {
@@ -941,6 +1008,7 @@ export const heroes = [
   },
   {
     "id": "satori",
+    "rank": 12,
     "image": "assets/heroes/Satori.png",
     "role": "mage",
     "name": {
@@ -955,6 +1023,7 @@ export const heroes = [
   },
   {
     "id": "sebastian",
+    "rank": 36,
     "image": "assets/heroes/Sebastian.png",
     "role": "support",
     "name": {
@@ -969,6 +1038,7 @@ export const heroes = [
   },
   {
     "id": "soleil",
+    "rank": 15,
     "image": "assets/heroes/Soleil.png",
     "role": "support",
     "name": {
@@ -983,6 +1053,7 @@ export const heroes = [
   },
   {
     "id": "somna",
+    "rank": 10,
     "image": "assets/heroes/Somna.png",
     "role": "control",
     "name": {
@@ -997,6 +1068,7 @@ export const heroes = [
   },
   {
     "id": "tempus",
+    "rank": 9,
     "image": "assets/heroes/Tempus.png",
     "role": "support",
     "name": {
@@ -1011,6 +1083,7 @@ export const heroes = [
   },
   {
     "id": "thea",
+    "rank": 72,
     "image": "assets/heroes/Thea.png",
     "role": "healer",
     "name": {
@@ -1025,6 +1098,7 @@ export const heroes = [
   },
   {
     "id": "tristan",
+    "rank": 29,
     "image": "assets/heroes/tristan.png",
     "role": "warrior",
     "name": {
@@ -1039,6 +1113,7 @@ export const heroes = [
   },
   {
     "id": "xe-sha",
+    "rank": 25,
     "image": "assets/heroes/Xesha.png",
     "role": "mage",
     "name": {
@@ -1053,6 +1128,7 @@ export const heroes = [
   },
   {
     "id": "yasmine",
+    "rank": 14,
     "image": "assets/heroes/Yasmine.png",
     "role": "warrior",
     "name": {
@@ -1067,6 +1143,7 @@ export const heroes = [
   },
   {
     "id": "ziri",
+    "rank": 71,
     "image": "assets/heroes/Ziri.png",
     "role": "tank",
     "name": {
@@ -1081,6 +1158,7 @@ export const heroes = [
   },
   {
     "id": "crow",
+    "rank": 23,
     "image": "assets/heroes/Crow.png",
     "role": "control",
     "name": {
@@ -1095,6 +1173,7 @@ export const heroes = [
   },
   {
     "id": "kendle",
+    "rank": 27,
     "image": "assets/heroes/Kendle.png",
     "role": "mage",
     "name": {
