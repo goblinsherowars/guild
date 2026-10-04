@@ -1,5 +1,5 @@
 // Championship teams supplied by the guild, in ranking order.
-// Guild lineups remain temporary examples. Hero IDs come from data/heroes.js.
+// Hero IDs come from data/heroes.js. An array within a lineup lists alternatives for one slot.
 export const teams = {
   defense: [
     ['julius', 'kayla', 'folio', 'polaris', 'aidan'],
@@ -26,7 +26,17 @@ export const teams = {
     ['kayla', 'tempus', 'guus', 'aidan', 'fafnir'],
   ],
   guild: [
-    ['aurora', 'mushy-and-shroom', 'alvanor', 'mojo', 'thea'],
-    ['astaroth', 'kayla', 'jorgen', 'xe-sha', 'aidan'],
+    ['mushy-and-shroom', 'alvanor', 'crow', 'byrna', 'aidan'],
+    ['leonel', 'byrna', 'tempus', 'iris', 'aidan'],
+    ['aidan', 'kendle', 'dorian', 'byrna', 'cleaver'],
+    ['julius', 'nebula', 'cascade', 'polaris', 'eva'],
+    ['julius', 'nebula', 'judge', 'isaac', 'eva'],
+    ['oya', 'yasmine', 'sebastian', 'byrna', 'aidan'],
+    ['electra-von-grave', 'drayne', 'tempus', 'iris', 'aidan'],
+    ['satori', 'byrna', 'cascade', 'electra-von-grave', ['polaris', 'aidan', 'nebula']],
+    ['yasmine', 'byrna', 'octavia', 'cornelius', 'aidan'],
+    ['drayne', 'tempus', 'iris', 'aidan', ['cleaver', 'electra-von-grave']],
+    ['electra-von-grave', 'folio', 'polaris', 'byrna', 'aidan'],
+    ['electra-von-grave', 'iris', 'tempus', 'phobos', 'byrna'],
   ],
 };
