@@ -1199,5 +1199,35 @@ export const heroes = [
       "en": "A sniper who targets both front and back lines and boosts allied marksmen's damage at range."
     },
     "source": "https://herowars-olympus.com/the-ultimate-eva-guide-2026/"
+  },
+  {
+    "id": "lara-croft",
+    "rank": 46,
+    "image": "assets/heroes/LaraCroft.png",
+    "role": "marksman",
+    "name": {
+      "ru": "Лара Крофт",
+      "en": "Lara Croft"
+    },
+    "description": {
+      "ru": "Стрелок, усиливающий свои критические удары. Наносит физический урон врагам и помогает союзникам восстанавливать здоровье с помощью древней реликвии.",
+      "en": "A marksman who strengthens her critical hits. Deals physical damage to enemies and helps allies recover health with an ancient relic."
+    },
+    "source": "https://www.hero-wars.com/universe/en/heroes/lara_croft/"
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles",
+    "rank": 76,
+    "image": "assets/heroes/NinjaTurtles.png",
+    "role": "warrior",
+    "name": {
+      "ru": "Черепашки-ниндзя",
+      "en": "Teenage Mutant Ninja Turtles"
+    },
+    "description": {
+      "ru": "Бойцы ближнего боя, объединяющие силы Леонардо, Рафаэля, Донателло и Микеланджело. Вместе наносят физический урон и оглушают противников.",
+      "en": "Melee warriors combining the strengths of Leonardo, Raphael, Donatello, and Michelangelo. Together they deal physical damage and stun enemies."
+    },
+    "source": "https://www.hero-wars.com/universe/en/heroes/ninjaturtles/"
   }
 ];

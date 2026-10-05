@@ -47,6 +47,8 @@ test('catalog renders, searches both languages, filters classes and preserves st
     const ranked = selectHeroes();
     assert.deepEqual(ranked.slice(0, 5).map(hero => hero.id), ['aidan', 'iris', 'byrna', 'folio', 'electra-von-grave']);
     assert.equal(ranked.find(hero => hero.id === 'fox').rank, 81);
+    assert.equal(ranked.find(hero => hero.id === 'lara-croft')?.rank, 46);
+    assert.equal(ranked.find(hero => hero.id === 'teenage-mutant-ninja-turtles')?.rank, 76);
     assert.equal(ranked.at(-1).id, 'eva');
     assert.deepEqual(selectHeroes('', '', 'en').map(hero => hero.id), ranked.map(hero => hero.id));
     const tankRanks = selectHeroes('', 'tank').map(hero => hero.rank);
