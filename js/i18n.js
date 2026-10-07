@@ -1,5 +1,6 @@
 export const translations={
  ru:{
+ teamGuideFirstTeamPriority:"Сначала максимально прокачайте Искры мощи и артефакты пяти героев основной команды. Только после этого направляйте эти ресурсы на героев второй команды.",
  teamDevelopment:"Прокачка команды",
  teamDevelopmentText:"Как развивать основную команду, распределять ресурсы и выбирать улучшения.",
  teamGuide0:"Общая стратегия развития героев",
@@ -152,6 +153,7 @@ brand:'Гоблины',home:'Главная',players:'Игроки',dungeon:'П�
  rosterTitle:'Игроки гильдии',search:'Поиск игрока…',sort:'Сортировка',sortActivity:'Активность',sortTotal:'Общая сила',sortHero:'Сила героев',sortTitan:'Сила титанов',sortName:'Ник',list:'Список',cards:'Карточки',heroTeam:'Команда героев',titanTeam:'Команда титанов',noData:'Состав пока не добавлен',totalPower:'Общая сила',rank:'Место',
  coming:'Раздел готовится',dungeonText:'Лечение титанов, выбор комнат, приоритеты прокачки и советы для долгого прохождения.',heroesText:'Каталог героев мобильной версии: портреты, классы и короткие описания. Найдите героя и познакомьтесь с его особенностями.',titansText:'Здесь будут советы по прокачке титанов, обликов, артефактов и составов.',guildVsText:'Как получать очки Схватки за обмен предметов и правильно использовать фрагменты.',aboutText:'Внутренний портал гильдии «Гоблины». Данные игроков перенесены из предоставленных скриншотов и будут постепенно обновляться.',backPlayers:'К игрокам',footer:'Гоблины · Вместе к победам',quick:'Разделы портала',topPlayers:'Известные боевые составы',viewAll:'Все игроки'},
  en:{
+ teamGuideFirstTeamPriority:"First, fully upgrade the Spark of Power bonuses and artifacts of all five heroes on your main team. Only then invest these resources in heroes on your second team.",
  teamDevelopment:"Team development",
  teamDevelopmentText:"How to develop your main team, allocate resources, and prioritize upgrades.",
  teamGuide0:"General hero development strategy",
